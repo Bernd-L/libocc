@@ -1,0 +1,32 @@
+{
+  "name": "libocc",
+  "version": "0.1.0",
+  "description": "An occasionally-connected-computing document synchronization library for Node.js with permission management",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bernd-L/libocc.git"
+  },
+  "keywords": [
+    "OCC",
+    "CQRS",
+    "Occasionally connected computing",
+    "offline sync"
+  ],
+  "author": "Bernd-L",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Bernd-L/libocc/issues"
+  },
+  "homepage": "https://github.com/Bernd-L/libocc#readme",
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5"
+  }
+}
